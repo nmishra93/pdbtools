@@ -7,13 +7,13 @@
 get_pdb(pdb_id, path = ".", verbose = TRUE, overwrite = FALSE)
 }
 \arguments{
+\item{pdb_id}{A character vector containing PDB IDs.}
+
 \item{path}{The local directory where PDB files will be saved (default is current working directory).}
 
 \item{verbose}{If TRUE, display download progress messages (default is TRUE).}
 
 \item{overwrite}{If TRUE, overwrite existing files with the same name (default is FALSE).}
-
-\item{ids}{A character vector containing PDB IDs.}
 }
 \value{
 Returns a character vector with the paths to the downloaded PDB files.

@@ -9,7 +9,7 @@
 #' @export
 download_file <- function(url, destination, quiet = FALSE) {
   dl_method <- if (quiet) "quiet" else "auto"
-  dl_status <- try(download.file(url, destination, method = dl_method), silent = TRUE)
+  dl_status <- try(utils::download.file(url, destination, method = dl_method), silent = TRUE)
   if (inherits(dl_status, "try-error")) {
     return(1)
   }
