@@ -1,4 +1,4 @@
-This project provides R functions for downloading  Protein Data Bank (PDB) files from the {RCSB PDB}(https://www.rcsb.org/) website. The primary function at the moment is `get_pdb`.
+This project provides R functions for downloading  Protein Data Bank (PDB) files from the [RCSB PDB](https://www.rcsb.org/) website. The primary function at the moment is `get_pdb`.
 
 ## Functions
 
