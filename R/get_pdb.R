@@ -20,7 +20,7 @@ download_file <- function(url, destination, quiet = FALSE) {
 #'
 #' This function downloads PDB files from the RCSB PDB website for the specified PDB IDs.
 #'
-#' @param ids A character vector containing PDB IDs.
+#' @param pdb_id A character vector containing PDB IDs.
 #' @param path The local directory where PDB files will be saved (default is current working directory).
 #' @param verbose If TRUE, display download progress messages (default is TRUE).
 #' @param overwrite If TRUE, overwrite existing files with the same name (default is FALSE).
