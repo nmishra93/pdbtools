@@ -2,7 +2,7 @@ This project provides R functions for downloading  Protein Data Bank (PDB) files
 
 ## Functions
 
-### `get_pdb`
+- `get_pdb`
 
 ## Usage
 
