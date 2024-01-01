@@ -21,7 +21,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # Install the project from GitHub
-devtools::install_github("yourusername/yourrepository")
+devtools::install_github("nmishra93/pdbtools")
 ```
 
 ## Contributions
