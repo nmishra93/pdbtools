@@ -2,3 +2,4 @@
 
 export(download_file)
 export(get_pdb)
+export(trim)

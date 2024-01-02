@@ -13,13 +13,10 @@
 #' print(result)
 #' }
 #'
-#' @importFrom base grep
-#' @importFrom base trimws
-#'
 #' @export
 trim <- function(lines) {
-  # Remove leading and trailing whitespaces and drop empty lines
-  cleaned_lines <- grep("\\S", trimws(lines), value = TRUE)
+  # Remove leading and trailing white spaces and drop empty lines
+  cleaned_lines <- base::grep("\\S", base::trimws(lines), value = TRUE)
 
   return(cleaned_lines)
 }
